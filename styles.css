@@ -13,6 +13,8 @@ body {
     width: 100%;
     height: max-content;
     background-image: url("/images/ooo.jpg");
+    font-size: 16px; /* Set a base font size in px */ 
+    font-family: 'Arial', sans-serif; /* Add a default font-family */
 }
 
 /* Navigation Bar */
@@ -28,7 +30,7 @@ nav {
 
 nav .logo,
 nav .logo a {
-    font-size: 1.3em;
+    font-size: 2rem; /* Use rem for scalability */
     color: #ffffff;
     font-weight: bold;
     text-decoration: none;
@@ -48,7 +50,7 @@ nav ul {
 
 nav ul li {
     margin-left: 1.5em;
-    font-size: 1.31em;
+    font-size: 1.31rem; /* Use rem */
     margin-right: 20px;
 }
 
@@ -60,7 +62,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    font-size: 1.1em;
+    font-size: 1.1em; 
     color: black;
     font-weight: bold;
     text-shadow: 1px 1px 8px white;
@@ -80,12 +82,12 @@ nav ul li a.active {
 }
 
 .hero h1 {
-    font-size: 2.5em;
+    font-size: 2.5rem; /* Use rem */
     margin-bottom: 0.5em;
 }
 
 .hero p {
-    font-size: 1.2em;
+    font-size: 1.2rem; /* Use rem */
 }
 
 /* Main Content Section */
@@ -98,22 +100,22 @@ nav ul li a.active {
 
 .content h2 {
     color: #2a9d8f;
-    font-size: 2.5em;
+    font-size: 2.5rem; /* Use rem */
     margin-bottom: 0.5em;
     text-shadow: .2px .2px 2px black;
 }
 
 .content h1 {
     color: coral;
-    font-size: 2em;
+    font-size: 2rem; /* Use rem */
     width: 180%;
     margin-bottom: 0.5em;
-    margin-left: -190px;
+    margin-left: -190px; 
     text-shadow: .2px .2px 1px rgb(0, 0, 0);
 }
 
 .content p {
-    font-size: 1.6em;
+    font-size: 1.6rem; /* Use rem */
     line-height: 1.6;
     margin-bottom: 1em;
 }
@@ -123,7 +125,8 @@ nav ul li a.active {
     flex-direction: row;
     gap: 10px;
     justify-content: space-around;
-    font-size: 1.3em;
+    font-size: 1.3rem; /* Use rem */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
 }
 
 .s0 {
@@ -136,11 +139,15 @@ nav ul li a.active {
 /* Custom Box (s1) */
 .s1 {
     background-color: #96ceb46b;
-    height: 20vh;
-    width: 50vh;
+    height: 20vh; 
+    width: 50vh; 
     margin-left: 50px;
     border-radius: 20px;
     box-shadow: .3px .3px 8px red;
+    display: flex; /* Ensure content is centered */
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center text within the box */
 }
 
 .s2 a,
@@ -163,30 +170,33 @@ nav ul li a.active {
 
 .s2 h2,
 .s4 h2 {
-    padding: 65px 25%;
+    padding: 65px 0%; 
 }
 
 .s3 h2 {
-    padding: 65px 21%;
+    padding: 65px 0; 
 }
 
 .s22 {
     background-color: #2a9d9086;
-    height: 8vh;
+    height: 8vh; 
     width: 90%;
     margin-top: 50px;
     border-radius: 20px;
     margin-left: 6%;
     box-shadow: .3px .3px 8px red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .s22 h2 {
-    padding: 6px 41%;
-    font-size: 2em;
+    padding: 6px 41%; 
+    font-size: 2em; 
     justify-content: center;
 }
 
-/* Additional styles for links.html */
+/* Additional styles for links.html (adjust as needed) */
 .links-container {
     display: flex;
     flex-direction: column;
@@ -196,12 +206,13 @@ nav ul li a.active {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin: 20px auto;
-    max-width: 600px;
+    max-width: 600px; 
 }
 
 .links-container h2 {
     color: #264653;
     margin-bottom: 15px;
+    font-size: 2rem; /* Use rem */
 }
 
 .links-container ul {
@@ -217,11 +228,13 @@ nav ul li a.active {
     color: #2a9d8f;
     text-decoration: none;
     font-weight: bold;
+    font-size: 1.2rem; /* Use rem */
 }
 
 .links-container ul li a:hover {
     text-decoration: underline;
 }
+
 
 /* Footer Styling */
 footer {
@@ -233,9 +246,9 @@ footer {
     border-top: 1px solid #ddd;
     background-color: rgba(186, 120, 120, 0.7);
     color: rgb(20, 9, 9);
-    position: fixed;
+    position: fixed; 
     left: 0;
-    bottom: 0;
+    bottom: 0; 
 }
 
 footer .contact {
@@ -250,7 +263,7 @@ footer .contact {
 footer .contact p {
     margin-left: 30px;
     width: 100%;
-    font-size: 20px;
+    font-size: 1.1rem; /* Use rem */
     gap: 0;
     font-weight: bold;
     justify-content: center;
@@ -260,7 +273,7 @@ footer .contact p {
 footer .contact a {
     margin-right: 300px;
     width: 100%;
-    font-size: 18px;
+    font-size: 0.9rem; /* Use rem */
     gap: 0;
     font-weight: bold;
     justify-content: center;
@@ -293,8 +306,7 @@ footer .contact .social-links a {
     transform: scale(1.1);
 }
 
-
-/* Font Style Definitions */
+/* Font Style Definitions (You have these already, keeping them for completeness) */
 .agbalumo-font {
     font-family: 'Agbalumo', sans-serif;
 }
@@ -333,55 +345,83 @@ footer .contact .social-links a {
 @media (max-width: 992px) {
     nav .logo,
     nav ul li {
-        font-size: 1.1em;
+        font-size: 1.1rem; /* Slightly reduce font size */
     }
 
     .hero h1 {
-        font-size: 2.2em;
+        font-size: 2.2rem; 
     }
 
     .content h2,
     .content h1 {
-        font-size: 2em;
+        font-size: 2rem; 
     }
 
     .content p {
-        font-size: 1.3em;
+        font-size: 1.3rem; 
     }
 
     .s1 {
-        width: 40vh;
+        width: 40vh; 
+    }
+
+    .s11 {
+        justify-content: center; /* Center boxes */
+    }
+
+    footer .contact a { /* Adjust footer for tablet */
+        margin-right: 100px; 
     }
 }
 
 /* For mobile screens */
 @media (max-width: 768px) {
     nav {
-        flex-direction: column;
+        flex-direction: column; 
         padding: 1em;
     }
 
     nav .logo,
     nav ul li {
-        font-size: 1em;
+        font-size: 1rem; 
         margin: 0.5em 0;
     }
 
     .hero h1 {
-        font-size: 1.8em;
+        font-size: 1.8rem; 
     }
 
     .content h2,
     .content h1 {
-        font-size: 1.6em;
+        font-size: 1.6rem;
     }
 
     .content p {
-        font-size: 1.1em;
+        font-size: 1.1rem; 
     }
 
     .s11 {
+        flex-direction: column; /* Stack boxes vertically */
+        align-items: center; 
+    }
+
+    .s1 {
+        width: 80%; /* Make boxes wider */
+        margin: 10px auto; /* Center with margin */
+    }
+
+    footer .contact { /* Adjust footer for mobile */
         flex-direction: column;
+        text-align: center;
+    }
+
+    footer .contact a {
+        margin: 5px 0; /* Smaller margin */
+    }
+
+    footer .contact .social-links {
+        margin: 10px 0; /* Smaller margin */
+        justify-content: center; /* Center social links */
     }
 }
 
@@ -389,30 +429,32 @@ footer .contact .social-links a {
 @media (max-width: 480px) {
     nav .logo,
     nav ul li {
-        font-size: 0.9em;
+        font-size: 0.9rem; 
     }
 
     .hero h1 {
-        font-size: 1.5em;
+        font-size: 1.5rem;
     }
 
     .content h2,
     .content h1 {
-        font-size: 1.4em;
+        font-size: 1.4rem; 
     }
 
     .content p {
-        font-size: 1em;
+        font-size: 1rem; 
     }
 
     .s1,
     .s22 {
-        width: 80%;
-        margin: 0 auto;
+        width: 90%; /* Make boxes even wider */
     }
 
-    footer .contact {
-        flex-direction: column;
-        text-align: center;
+    footer .contact p {
+        font-size: 0.9rem; 
+    }
+
+    footer .contact a {
+        font-size: 0.8rem; 
     }
 }
