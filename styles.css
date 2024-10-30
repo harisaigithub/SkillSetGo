@@ -7,12 +7,21 @@
     box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
 body {
-    background-color: #f0f4f8;
     color: #333;
     width: 100%;
     height: max-content;
     background-image: url("/images/ooo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-position: 50%;
+    height: auto;
 }
 
 
@@ -29,7 +38,7 @@ nav {
 
 nav .logo,
 nav .logo a {
-    font-size: 1.3em;
+    font-size: 1.3rem;
     color: #ffffff;
     font-weight: bold;
     text-decoration: none;
@@ -49,7 +58,7 @@ nav ul {
 
 nav ul li {
     margin-left: 1.5em;
-    font-size: 1.31em;
+    font-size: 1.31rem;
     margin-right: 20px;
 }
 
@@ -82,12 +91,12 @@ nav ul li a.active {
 }
 
 .hero h1 {
-    font-size: 2.5em;
+    font-size: 2.5rem;
     margin-bottom: 0.5em;
 }
 
 .hero p {
-    font-size: 1.2em;
+    font-size: 1.2rem;
 }
 
 /* Main Content Section */
@@ -100,14 +109,14 @@ nav ul li a.active {
 
 .content h2 {
     color: #2a9d8f;
-    font-size: 2.5em;
+    font-size: 2.5rem;
     margin-bottom: 0.5em;
     text-shadow: .2px .2px 2px black;
 }
 
 .content h1 {
     color: coral;
-    font-size: 2em;
+    font-size: 2rem;
     width: 180%;
     margin-bottom: 0.5em;
     margin-left: -190px;
@@ -115,7 +124,7 @@ nav ul li a.active {
 }
 
 .content p {
-    font-size: 1.6em;
+    font-size: 1.6rem;
     line-height: 1.6;
     margin-bottom: 1em;
 }
@@ -125,7 +134,7 @@ nav ul li a.active {
     flex-direction: row;
     gap: 10px;
     justify-content: space-around;
-    font-size: 1.3em;
+    font-size: 1.3rem;
 }
 
 .s0 {
@@ -184,7 +193,7 @@ nav ul li a.active {
 
 .s22 h2 {
     padding: 6px 41%;
-    font-size: 2em;
+    font-size: 2rem;
     justify-content: center;
 }
 
