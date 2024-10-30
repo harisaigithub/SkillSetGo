@@ -7,23 +7,13 @@
     box-sizing: border-box;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-
 body {
+    background-color: #f0f4f8;
     color: #333;
     width: 100%;
     height: max-content;
     background-image: url("/images/ooo.jpg");
-    background-size: cover;
-    background-position: center;
-    background-position: 50%;
-    height: auto;
 }
-
 
 /* Navigation Bar */
 nav {
@@ -38,7 +28,7 @@ nav {
 
 nav .logo,
 nav .logo a {
-    font-size: 1.3rem;
+    font-size: 1.3em;
     color: #ffffff;
     font-weight: bold;
     text-decoration: none;
@@ -58,7 +48,7 @@ nav ul {
 
 nav ul li {
     margin-left: 1.5em;
-    font-size: 1.31rem;
+    font-size: 1.31em;
     margin-right: 20px;
 }
 
@@ -80,7 +70,6 @@ nav ul li a.active {
     border-bottom: 2px solid #ffffff;
 }
 
-
 /* Hero Section */
 .hero {
     background-color: rgba(38, 70, 83, 0.74);
@@ -91,12 +80,12 @@ nav ul li a.active {
 }
 
 .hero h1 {
-    font-size: 2.5rem;
+    font-size: 2.5em;
     margin-bottom: 0.5em;
 }
 
 .hero p {
-    font-size: 1.2rem;
+    font-size: 1.2em;
 }
 
 /* Main Content Section */
@@ -109,14 +98,14 @@ nav ul li a.active {
 
 .content h2 {
     color: #2a9d8f;
-    font-size: 2.5rem;
+    font-size: 2.5em;
     margin-bottom: 0.5em;
     text-shadow: .2px .2px 2px black;
 }
 
 .content h1 {
     color: coral;
-    font-size: 2rem;
+    font-size: 2em;
     width: 180%;
     margin-bottom: 0.5em;
     margin-left: -190px;
@@ -124,7 +113,7 @@ nav ul li a.active {
 }
 
 .content p {
-    font-size: 1.6rem;
+    font-size: 1.6em;
     line-height: 1.6;
     margin-bottom: 1em;
 }
@@ -134,7 +123,7 @@ nav ul li a.active {
     flex-direction: row;
     gap: 10px;
     justify-content: space-around;
-    font-size: 1.3rem;
+    font-size: 1.3em;
 }
 
 .s0 {
@@ -193,7 +182,7 @@ nav ul li a.active {
 
 .s22 h2 {
     padding: 6px 41%;
-    font-size: 2rem;
+    font-size: 2em;
     justify-content: center;
 }
 
@@ -304,37 +293,126 @@ footer .contact .social-links a {
     transform: scale(1.1);
 }
 
-/* Font Style Definitions */
 
+/* Font Style Definitions */
 .agbalumo-font {
     font-family: 'Agbalumo', sans-serif;
-  }
-  
-  .aref-font {
+}
+
+.aref-font {
     font-family: 'Aref Ruqaa Ink', serif;
-  }
-  
-  .arima-font {
+}
+
+.arima-font {
     font-family: 'Arima', cursive;
-  }
-  
-  .armata-font {
+}
+
+.armata-font {
     font-family: 'Armata', sans-serif;
-  }
-  
-  .amiri-font {
+}
+
+.amiri-font {
     font-family: 'Amiri Quran', serif;
-  }
-  
-  .ald-rich-font {
+}
+
+.ald-rich-font {
     font-family: 'Aldrich', sans-serif;
-  }
-  
-  .alegreya-sc-font {
+}
+
+.alegreya-sc-font {
     font-family: 'Alegreya SC', serif;
-  }
-  
-  .alegreya-sans-font {
+}
+
+.alegreya-sans-font {
     font-family: 'Alegreya Sans SC', sans-serif;
-  }
-  
+}
+
+/* Responsive Design */
+
+/* Tablets and smaller screens */
+@media (max-width: 992px) {
+    nav .logo,
+    nav ul li {
+        font-size: 1.1em;
+    }
+
+    .hero h1 {
+        font-size: 2.2em;
+    }
+
+    .content h2,
+    .content h1 {
+        font-size: 2em;
+    }
+
+    .content p {
+        font-size: 1.3em;
+    }
+
+    .s1 {
+        width: 40vh;
+    }
+}
+
+/* For mobile screens */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        padding: 1em;
+    }
+
+    nav .logo,
+    nav ul li {
+        font-size: 1em;
+        margin: 0.5em 0;
+    }
+
+    .hero h1 {
+        font-size: 1.8em;
+    }
+
+    .content h2,
+    .content h1 {
+        font-size: 1.6em;
+    }
+
+    .content p {
+        font-size: 1.1em;
+    }
+
+    .s11 {
+        flex-direction: column;
+    }
+}
+
+/* Smallest mobile screens */
+@media (max-width: 480px) {
+    nav .logo,
+    nav ul li {
+        font-size: 0.9em;
+    }
+
+    .hero h1 {
+        font-size: 1.5em;
+    }
+
+    .content h2,
+    .content h1 {
+        font-size: 1.4em;
+    }
+
+    .content p {
+        font-size: 1em;
+    }
+
+    .s1,
+    .s22 {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    footer .contact {
+        flex-direction: column;
+        text-align: center;
+    }
+}
