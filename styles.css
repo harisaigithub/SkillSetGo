@@ -10,27 +10,24 @@
 body {
     background-color: #f0f4f8;
     color: #333;
-    width: 100%;
-    height: max-content;
     background-image: url("/images/ooo.jpg");
-    font-size: 16px; /* Set a base font size in px */ 
-    font-family: 'Arial', sans-serif; /* Add a default font-family */
+    font-size: 16px; /* Base font size */
+    font-family: 'Arial', sans-serif;
 }
 
 /* Navigation Bar */
 nav {
     background-color: #2a9d9096;
-    padding: 1.5em;
+    padding: 1.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 3;
     width: 100%;
 }
 
 nav .logo,
 nav .logo a {
-    font-size: 2rem; /* Use rem for scalability */
+    font-size: 2rem;
     color: #ffffff;
     font-weight: bold;
     text-decoration: none;
@@ -40,7 +37,7 @@ nav .logo a {
 
 nav .logo a:hover {
     color: rgba(196, 243, 69, 0.815);
-    text-shadow: .8px .8px 3px black;
+    text-shadow: 0.8px 0.8px 3px black;
 }
 
 nav ul {
@@ -50,7 +47,7 @@ nav ul {
 
 nav ul li {
     margin-left: 1.5em;
-    font-size: 1.31rem; /* Use rem */
+    font-size: 1.3rem;
     margin-right: 20px;
 }
 
@@ -62,7 +59,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    font-size: 1.1em; 
+    font-size: 1.1em;
     color: black;
     font-weight: bold;
     text-shadow: 1px 1px 8px white;
@@ -76,23 +73,23 @@ nav ul li a.active {
 .hero {
     background-color: rgba(38, 70, 83, 0.74);
     color: #ffffff;
-    padding: 2em;
+    padding: 2rem;
     text-align: center;
-    text-shadow: .2px .2px 2px black;
+    text-shadow: 0.2px 0.2px 2px black;
 }
 
 .hero h1 {
-    font-size: 2.5rem; /* Use rem */
-    margin-bottom: 0.5em;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .hero p {
-    font-size: 1.2rem; /* Use rem */
+    font-size: 1.2rem;
 }
 
 /* Main Content Section */
 .content {
-    padding: 2em;
+    padding: 2rem;
     max-width: 800px;
     margin: 0 auto;
     width: 100%;
@@ -100,33 +97,32 @@ nav ul li a.active {
 
 .content h2 {
     color: #2a9d8f;
-    font-size: 2.5rem; /* Use rem */
-    margin-bottom: 0.5em;
-    text-shadow: .2px .2px 2px black;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 0.2px 0.2px 2px black;
 }
 
 .content h1 {
     color: coral;
-    font-size: 2rem; /* Use rem */
-    width: 180%;
-    margin-bottom: 0.5em;
-    margin-left: -190px; 
-    text-shadow: .2px .2px 1px rgb(0, 0, 0);
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    margin-left: -10%;
+    text-shadow: 0.2px 0.2px 1px rgb(0, 0, 0);
 }
 
 .content p {
-    font-size: 1.6rem; /* Use rem */
+    font-size: 1.6rem;
     line-height: 1.6;
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
 }
 
 .s11 {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 1rem;
     justify-content: space-around;
-    font-size: 1.3rem; /* Use rem */
-    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    font-size: 1.3rem;
+    flex-wrap: wrap;
 }
 
 .s0 {
@@ -139,15 +135,15 @@ nav ul li a.active {
 /* Custom Box (s1) */
 .s1 {
     background-color: #96ceb46b;
-    height: 20vh; 
-    width: 50vh; 
-    margin-left: 50px;
+    height: 20vh;
+    width: 45vh;
+    margin-left: 2rem;
     border-radius: 20px;
-    box-shadow: .3px .3px 8px red;
-    display: flex; /* Ensure content is centered */
+    box-shadow: 0.3px 0.3px 8px red;
+    display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center; /* Center text within the box */
+    text-align: center;
 }
 
 .s2 a,
@@ -156,47 +152,45 @@ nav ul li a.active {
 .s22 a {
     text-decoration: none;
     color: #FF6500;
-    text-shadow: .8px .8px 2px rgb(0, 0, 0);
+    text-shadow: 0.8px 0.8px 2px rgb(0, 0, 0);
 }
 
 .s2 a:hover,
 .s3 a:hover,
 .s4 a:hover,
 .s22 a:hover {
-    text-decoration: none;
     color: black;
-    text-shadow: .8px .8px 4px white;
+    text-shadow: 0.8px 0.8px 4px white;
 }
 
 .s2 h2,
 .s4 h2 {
-    padding: 65px 0%; 
+    padding: 65px 0;
 }
 
 .s3 h2 {
-    padding: 65px 0; 
+    padding: 65px 0;
 }
 
 .s22 {
     background-color: #2a9d9086;
-    height: 8vh; 
+    height: 8vh;
     width: 90%;
     margin-top: 50px;
     border-radius: 20px;
-    margin-left: 6%;
-    box-shadow: .3px .3px 8px red;
+    margin-left: 5%;
+    box-shadow: 0.3px 0.3px 8px red;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .s22 h2 {
-    padding: 6px 41%; 
-    font-size: 2em; 
-    justify-content: center;
+    padding: 6px 20%;
+    font-size: 2em;
 }
 
-/* Additional styles for links.html (adjust as needed) */
+/* Additional styles for links.html */
 .links-container {
     display: flex;
     flex-direction: column;
@@ -206,13 +200,13 @@ nav ul li a.active {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin: 20px auto;
-    max-width: 600px; 
+    max-width: 600px;
 }
 
 .links-container h2 {
     color: #264653;
     margin-bottom: 15px;
-    font-size: 2rem; /* Use rem */
+    font-size: 2rem;
 }
 
 .links-container ul {
@@ -228,73 +222,53 @@ nav ul li a.active {
     color: #2a9d8f;
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.2rem; /* Use rem */
+    font-size: 1.2rem;
 }
 
 .links-container ul li a:hover {
     text-decoration: underline;
 }
 
-
 /* Footer Styling */
 footer {
     text-align: left;
-    padding: none;
+    padding: 0.5rem;
     color: #777;
     width: 100%;
-    margin-top: 10px;
-    border-top: 1px solid #ddd;
     background-color: rgba(186, 120, 120, 0.7);
     color: rgb(20, 9, 9);
-    position: fixed; 
+    position: fixed;
     left: 0;
-    bottom: 0; 
+    bottom: 0;
 }
 
 footer .contact {
     display: flex;
     align-items: center;
-    flex-direction: row;
     justify-content: space-between;
     color: #0c0808;
-    margin: 8px;
+    margin: 0.5rem;
 }
 
 footer .contact p {
-    margin-left: 30px;
-    width: 100%;
-    font-size: 1.1rem; /* Use rem */
-    gap: 0;
+    margin-left: 1.25rem;
+    font-size: 1.1rem;
     font-weight: bold;
-    justify-content: center;
-    text-shadow: .4px .4px 4px #ff002bea;
+    text-shadow: 0.4px 0.4px 4px #ff002bea;
 }
 
 footer .contact a {
-    margin-right: 300px;
-    width: 100%;
-    font-size: 0.9rem; /* Use rem */
-    gap: 0;
+    margin-right: 100px;
+    font-size: 0.9rem;
     font-weight: bold;
-    justify-content: center;
-    text-shadow: .4px .4px 4px #ff002bea;
+    text-shadow: 0.4px 0.4px 4px #ff002bea;
 }
 
 footer .contact .social-links {
     display: flex;
     gap: 20px;
-    margin-top: 10px;
-    margin-right: 100px;
+    justify-content: center;
 }
-
-footer .contact .social-links a {
-    margin: 0;
-    color: #fff;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
-}
-
 
 .social-links a img {
     width: 35px;
@@ -306,89 +280,52 @@ footer .contact .social-links a {
     transform: scale(1.1);
 }
 
-/* Font Style Definitions (You have these already, keeping them for completeness) */
-.agbalumo-font {
-    font-family: 'Agbalumo', sans-serif;
-}
-
-.aref-font {
-    font-family: 'Aref Ruqaa Ink', serif;
-}
-
-.arima-font {
-    font-family: 'Arima', cursive;
-}
-
-.armata-font {
-    font-family: 'Armata', sans-serif;
-}
-
-.amiri-font {
-    font-family: 'Amiri Quran', serif;
-}
-
-.ald-rich-font {
-    font-family: 'Aldrich', sans-serif;
-}
-
-.alegreya-sc-font {
-    font-family: 'Alegreya SC', serif;
-}
-
-.alegreya-sans-font {
-    font-family: 'Alegreya Sans SC', sans-serif;
-}
-
 /* Responsive Design */
 
 /* Tablets and smaller screens */
 @media (max-width: 992px) {
     nav .logo,
     nav ul li {
-        font-size: 1.1rem; /* Slightly reduce font size */
+        font-size: 1.1rem;
     }
 
     .hero h1 {
-        font-size: 2.2rem; 
+        font-size: 2rem;
     }
 
     .content h2,
     .content h1 {
-        font-size: 2rem; 
+        font-size: 2rem;
     }
 
     .content p {
-        font-size: 1.3rem; 
+        font-size: 1.3rem;
     }
 
     .s1 {
-        width: 40vh; 
+        width: 35vh;
     }
 
     .s11 {
-        justify-content: center; /* Center boxes */
-    }
-
-    footer .contact a { /* Adjust footer for tablet */
-        margin-right: 100px; 
+        justify-content: center;
     }
 }
 
-/* For mobile screens */
+/* Mobile screens */
 @media (max-width: 768px) {
     nav {
-        flex-direction: column; 
+        flex-direction: column;
         padding: 1em;
     }
 
     nav .logo,
     nav ul li {
-        font-size: 1rem; 
-        margin: 0.5em 0;
+        font-size: 1rem;
+        margin: 0.5rem 0;
     }
 
     .hero h1 {
-        font-size: 1.8rem; 
+        font-size: 1.8rem;
     }
 
     .content h2,
@@ -397,31 +334,23 @@ footer .contact .social-links a {
     }
 
     .content p {
-        font-size: 1.1rem; 
+        font-size: 1.1rem;
     }
 
     .s11 {
-        flex-direction: column; /* Stack boxes vertically */
-        align-items: center; 
+        flex-direction: column;
+        align-items: center;
     }
 
-    .s1 {
-        width: 80%; /* Make boxes wider */
-        margin: 10px auto; /* Center with margin */
+    .s1,
+    .s22 {
+        width: 80%;
+        margin: 10px auto;
     }
 
-    footer .contact { /* Adjust footer for mobile */
+    footer .contact {
         flex-direction: column;
         text-align: center;
-    }
-
-    footer .contact a {
-        margin: 5px 0; /* Smaller margin */
-    }
-
-    footer .contact .social-links {
-        margin: 10px 0; /* Smaller margin */
-        justify-content: center; /* Center social links */
     }
 }
 
@@ -429,7 +358,7 @@ footer .contact .social-links a {
 @media (max-width: 480px) {
     nav .logo,
     nav ul li {
-        font-size: 0.9rem; 
+        font-size: 0.9rem;
     }
 
     .hero h1 {
@@ -438,23 +367,23 @@ footer .contact .social-links a {
 
     .content h2,
     .content h1 {
-        font-size: 1.4rem; 
+        font-size: 1.4rem;
     }
 
     .content p {
-        font-size: 1rem; 
+        font-size: 1rem;
     }
 
     .s1,
     .s22 {
-        width: 90%; /* Make boxes even wider */
+        width: 90%;
     }
 
     footer .contact p {
-        font-size: 0.9rem; 
+        font-size: 0.9rem;
     }
 
     footer .contact a {
-        font-size: 0.8rem; 
+        font-size: 0.8rem;
     }
 }
