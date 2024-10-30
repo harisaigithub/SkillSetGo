@@ -342,7 +342,7 @@ footer .contact .social-links a {
 /* Responsive Design */
 
 /* Tablets and smaller screens */
-@media (max-width: 1200px) {
+@media (max-width: 992px) {
     nav .logo,
     nav ul li {
         font-size: 1.1rem; /* Slightly reduce font size */
