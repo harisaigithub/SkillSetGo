@@ -2,7 +2,7 @@ import "./about.css";
 import GitHubLogo from "./images/github-logo.png";
 import WebsiteLogo from "./images/website-logo.png";
 import LinkedInLogo from "./images/linkedin-logo.png";
-import '@fortawesome/fontawesome-free/css/all.min.css';
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const About = () => {
   return (
@@ -16,20 +16,28 @@ const About = () => {
       <section class="content armata">
         <h2>Learn and Grow</h2>
         <p class="contnet aldrich">
-        <i class="fa-solid fa-star fa-shake"></i> At Skill Set Go, we provide resources and guidance to help you develop
-          skills that matter in today's world.
+          <i class="fa-solid fa-star fa-shake"></i> At Skill Set Go, we provide
+          resources and guidance to help you develop skills that matter in
+          today's world.
         </p>
         <p class="contnet aldrich">
-        <i class="fa-solid fa-star fa-shake"></i> Explore my collection of courses, tutorials, and blogs that cover a
-          wide range of skills across various fields.
-        </p>
-        <p class="contnet aldrich"><i class="fa-solid fa-star fa-shake"></i> Whether you are a student looking to enhance your knowledge or a professional aiming to upskill, we have something for everyone.
+          <i class="fa-solid fa-star fa-shake"></i> Explore my collection of
+          courses, tutorials, and blogs that cover a wide range of skills across
+          various fields.
         </p>
         <p class="contnet aldrich">
-        <i class="fa-solid fa-star fa-shake"></i> Explore the world of knowledge at Skill Set Go, where education meets innovation. Together, we can make learning engaging and effective!
+          <i class="fa-solid fa-star fa-shake"></i> Whether you are a student
+          looking to enhance your knowledge or a professional aiming to upskill,
+          we have something for everyone.
         </p>
-        <p class="contnet aref-ruqaa-ink">
-        <i class="fa-solid fa-star fa-shake"></i> MADE WITH LOVE FOR STUDENTS BY THE STUDENTS !!!
+        <p class="contnet aldrich">
+          <i class="fa-solid fa-star fa-shake"></i> Explore the world of
+          knowledge at Skill Set Go, where education meets innovation. Together,
+          we can make learning engaging and effective!
+        </p>
+        <p class="contnet aref-ruqaa-ink" style="font-weight: bolder">
+          <i class="fa-solid fa-star fa-shake"></i> MADE WITH LOVE FOR STUDENTS
+          BY THE STUDENT !!!
         </p>
       </section>
 
