@@ -35,7 +35,7 @@ const About = () => {
           knowledge at Skill Set Go, where education meets innovation. Together,
           we can make learning engaging and effective!
         </p>
-        <p class="contne aref-ruqaa-ink">
+        <p class="contnet aref-ruqaa-ink">
           <i class="fa-solid fa-star fa-shake"></i> MADE WITH LOVE FOR STUDENTS
           BY THE STUDENT !!!
         </p>
