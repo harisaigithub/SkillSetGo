@@ -1,0 +1,34 @@
+/* App.css */
+
+.App {
+  text-align: center;
+}
+
+/* Font Classes */
+.aref-ruqaa-ink {
+  font-family: 'Aref Ruqaa Ink', sans-serif;
+}
+
+.arima {
+  font-family: 'Arima', sans-serif;
+}
+
+.armata {
+  font-family: 'Armata', sans-serif;
+}
+
+.amiri-quran {
+  font-family: 'Amiri Quran', serif;
+}
+
+.aldrich {
+  font-family: 'Aldrich', sans-serif;
+}
+
+.alegreya-sc {
+  font-family: 'Alegreya SC', serif;
+}
+
+.alegreya-sans-sc {
+  font-family: 'Alegreya Sans SC', sans-serif;
+}

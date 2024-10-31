@@ -1,0 +1,248 @@
+/* Main container styling */
+.A1 {
+  background-image: url('./ooo.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  width: 100vw;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Header area styling */
+.p1 {
+  background-image: url('./ooo.jpg');
+  height: 80px;
+  width: 100%;
+}
+
+/* Container styling */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  padding: 12px;
+  border: 4px solid transparent;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.heading-box {
+  margin: 0;
+}
+
+.heading {
+  color: rgb(240, 81, 24);
+  font-weight: bold;
+  font-size: 1.7rem;
+  text-shadow: 0.2px 0.2px 4px rgba(0, 0, 0, 0.288);
+}
+
+/* Grid layout styling */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+/* Individual grid item styling */
+.grid-item {
+  padding: 35px;
+  background-color: #96ceb46b;
+  border: 2px solid #ff00008f;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.555);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.grid-item a {
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ff6600;
+  text-shadow: 0.8px 0.8px 4px rgba(0, 0, 0, 0.527);
+}
+
+.grid-item.full-row {
+  grid-column: span 3;
+  padding: 19px;
+}
+
+.grid-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.397);
+}
+
+.grid-item a:hover {
+  color: #007f5f;
+  text-shadow: 0.8px 0.8px 4px rgba(255, 0, 212, 0.623);
+  transform: scale(1.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Footer styling */
+.footer {
+  width: 100%;
+  padding: 13px 0;
+  background-color: rgba(228, 87, 87, 0.479);
+  color: rgb(20, 9, 9);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1.5px solid black;
+  text-shadow: 0.4px 0.4px 4px #ff002b63;
+}
+
+.footer-text,
+.footer-description {
+  font-weight: bold;
+  margin-left: 3%;
+}
+
+.social-links {
+  display: flex;
+  gap: 20px;
+  margin-right: 3%;
+}
+
+.social-links a img {
+  color: #1d3557;
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s;
+}
+
+.social-links a:hover img {
+  transform: scale(1.1);
+}
+
+/* Media Queries for Responsiveness */
+
+/* For tablets and smaller desktops */
+@media (max-width: 992px) {
+  .A1{
+    overflow: hidden;
+  }
+  .container {
+    width: 90%;
+  }
+
+  .heading-box{
+    text-align: center;
+   }
+
+  .heading {
+    font-size: 1.5rem;
+    padding: 0 10px;
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-item a {
+    font-size: 1.2rem;
+  }
+
+  .footer {
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+  }
+}
+
+/* For mobile devices (single column layout) */
+@media (max-width: 576px) {
+  .heading-box{
+   text-align: center;
+  }
+  .container {
+    width: 95%;
+    overflow: hidden;
+  }
+
+  .heading {
+    font-size: 1.2rem;
+    padding: 0 10px;
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+  .grid-item {
+    padding: 13px;
+  }
+
+  .grid-item a {
+    font-size: 1.2rem;
+  }
+
+  .footer-text{
+    text-align: left;
+    width: 43%;
+  }
+  .footer-description {
+    text-align: left;
+    width: 98%;
+    font-size: 0.8rem;
+  }
+
+  .footer {
+    flex-direction: row;
+    padding: 3px;
+  }
+
+  .social-links {
+    gap: 10px;
+  }
+
+  .social-links a img {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+/* For very small mobile screens (compact styling) */
+@media (max-width: 375px) {
+  .heading {
+    font-size: 1.1rem;
+    padding: 0 5px;
+  }
+
+  .grid-item {
+    padding: 13px;
+  }
+
+  .grid-item a {
+    font-size: 1rem;
+  }
+
+  .footer-text{
+    font-size: 0.7rem;
+    margin-left: 3% ;
+    width: 59%;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  .footer-description {
+    width: 194%;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .social-links {
+    gap: 10px;
+  }
+
+  .social-links a img {
+    width: 20px;
+    height: 20px;
+  }
+}
