@@ -28,6 +28,9 @@ const About = () => {
         <p class="contnet aldrich">
         <i class="fa-solid fa-star fa-shake"></i> Explore the world of knowledge at Skill Set Go, where education meets innovation. Together, we can make learning engaging and effective!
         </p>
+        <p class="contnet aref-ruqaa-ink">
+        <i class="fa-solid fa-star fa-shake"></i> MADE WITH LOVE FOR STUDENTS BY THE STUDENTS !!!
+        </p>
       </section>
 
       <footer className="footer arima">
