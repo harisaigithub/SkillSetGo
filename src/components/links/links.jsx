@@ -2374,6 +2374,20 @@ const Links = () => {
               </div>
             ))}
           </div>
+          <div className="thank-you-message">
+            <p>
+              <strong>
+                Thank you for the contribution and{" "}
+                <a
+                  href="https://github.com/thedaviddias/Front-End-Checklist"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  view more @ GitHub
+                </a>
+              </strong>
+            </p>
+          </div>
         </section>
       </div>
       <footer className="footer arima">
