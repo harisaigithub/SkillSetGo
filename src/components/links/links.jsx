@@ -2379,7 +2379,7 @@ const Links = () => {
               <strong>
                 Thank you for the contribution and{" "}
                 <a
-                  href="https://github.com/thedaviddias/Front-End-Checklist"
+                  href="https://github.com/sdmg15/Best-websites-a-programmer-should-visit"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
